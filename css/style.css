@@ -48,6 +48,7 @@ img {
 .flex-row {
     flex-direction: row;
     display: flex;
+    align-items: center;
 }
 
 .container-footer {
@@ -109,7 +110,7 @@ img {
     padding-bottom: 94px;
 }
 
-.lorem:not(:last-child) {
+.lorem li:not(:last-child) {
     padding-right: 30px;
 }
 
@@ -292,7 +293,6 @@ img {
     flex-basis: calc((100% - 60px) / 3);
 }
 
-/*,.button:focus*/
 .button:hover {
     background-color: var(--blue);
     color: var(--white);
